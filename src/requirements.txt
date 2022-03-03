@@ -1,0 +1,4 @@
+kafka-python
+psycopg2
+requests
+kafka
