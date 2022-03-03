@@ -35,15 +35,15 @@ aiven kafka server with a topic "webmon" created
 ### Aiven Services Setup
 Step 1 - login to the aiven service and create a kafka topic
 ```avn user login
-Username (email): douglas.kruger@skynetconsultingltd.com
-douglas.kruger@skynetconsultingltd.com's Aiven password:
-INFO	Aiven credentials written to: /Users/dkruger/.config/aiven/aiven-credentials.json
+Username (email): xxx@skynetconsultingltd.com
+xxx@skynetconsultingltd.com's Aiven password:
+INFO	Aiven credentials written to: /Users/xxx/.config/aiven/aiven-credentials.json
 INFO	Default project set as 'skynetconsultingltd-9f71' (change with 'avn project switch <project>')
 
 avn user info
 USER                                    REAL_NAME       STATE   TOKEN_VALIDITY_BEGIN  PROJECTS                  AUTH
 ======================================  ==============  ======  ====================  ========================  ========
-douglas.kruger@skynetconsultingltd.com  Douglas Kruger  active  null                  skynetconsultingltd-9f71  password
+xxx@skynetconsultingltd.com             DKruger         active  null                  skynetconsultingltd-9f71  password
 ```
 Step 2 - create the kafka topic
 ```avn service topic-create dkruger-kafka webmon --partitions 3 --replication 3
